@@ -1,0 +1,26 @@
+.navigation {
+    display: flex;
+    background-color: #8c55ed;
+    height: 3em;
+}
+
+.navigation-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navigation-list a {
+    color: white;
+    padding-left: 1em;
+    text-decoration-line: none;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.navigation-list a:active,
+.navigation-list a.active,
+.navigation-list a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
